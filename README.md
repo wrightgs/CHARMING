@@ -30,7 +30,7 @@ TCT 23.5
 TAT 18.8
 ...
 
-*7) codonTableDestination - (optional) The path to the codon usage table file for the destination species if harmonizing between two species. If this argument is omitted, CHARMING will create synonymous mutants of the input sequence that match the pattern of the sequence in the origin species. This file should be in the same format as codonTableOrigin.
+7) codonTableDestination - **(optional)** The path to the codon usage table file for the destination species if harmonizing between two species. If this argument is omitted, CHARMING will create synonymous mutants of the input sequence that match the pattern of the sequence in the origin species. This file should be in the same format as codonTableOrigin.
 
 
 # Output files
