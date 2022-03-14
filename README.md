@@ -26,13 +26,13 @@ List of arguments in order:
 
 6) codonTableOrigin - The path to the codon usage table file for the origin species. The file should have 64 lines, where each of the lines contains a codon followed by that codon's associated frequency, separated by whitespace. Therefore, the first three lines file should look like (note - codon order does not matter):
 
-TTT 26.1
+    TTT 26.1
 
-TCT 23.5
+    TCT 23.5
 
-TAT 18.8
+    TAT 18.8
 
-...
+    ...
 
 7) codonTableDestination - **(optional)** The path to the codon usage table file for the destination species if harmonizing between two species. If this argument is omitted, CHARMING will create synonymous mutants of the input sequence that match the pattern of the sequence in the origin species. This file should be in the same format as codonTableOrigin.
 
