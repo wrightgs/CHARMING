@@ -491,7 +491,7 @@ outputs.sort()
 outFile = open(outName + "_" + model + "_harmonized_sequences.txt", "w")
 outFile2 = open(outName + "_" + model + "_harmonized_values.txt", "w")
 
-if len(args) == 7:
+if len(args) == 8:
     outFile2.write("Unharmonized CUB metric values: " + str(unharmonizedVals) + "\n")
 outFile2.write("Target CUB metric values: " + str(targetVals) + "\n")
 
